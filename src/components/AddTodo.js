@@ -9,7 +9,8 @@ const AddTodo = ({ addToDo }) => {
 
         if (textVal.length > 0) {
             console.log(textVal);
-            addToDo(textVal, Math.floor(Math.random * 10000 + 1))
+            const id = Math.floor(Math.random() * 10000 + 1);
+            addToDo(textVal, id);
 
             setTextVal('');
         }
