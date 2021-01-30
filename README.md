@@ -6,10 +6,15 @@ This project is deployed with gh-pages here: [Redux-To-Do](https://projectym.git
 ### What This App Does:
 
 This app allows you to add "To Do" items to a list of pre-generated items.
-Each of these items has a "check" button and a "delete" button.
-When adding a "To Do" item, it is default not checked, and added to the bottom of the unchecked items.
-When an item is checked off, it is then sorted to the bottom of the list.
-The list of items is re-sorted each time an item is checked, unchecked, or added.
+<br/>
+Each of these items has a "check" button and a "delete" button.<br/>
+
+When adding a "To Do" item, it is default not checked, and added to the bottom of the unchecked items.<br/>
+
+When an item is checked off, it is then sorted to the bottom of the list.<br/>
+
+The list of items is re-sorted each time an item is checked, unchecked, or added.<br/>
+
 
 
 ## Technologies Used
