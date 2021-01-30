@@ -4,7 +4,7 @@ import ToDoList from './components/ToDoList'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-column align-items-center">
       <h1>To do App w/Redux</h1>
       <AddTodo />
       <ToDoList />

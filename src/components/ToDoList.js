@@ -3,10 +3,10 @@ import ToDo from './ToDo'
 
 const ToDoList = ({ todos }) => {
     return (
-        <div>
+        <div className="w-75 p-3">
             {todos.map(todo => {
                 return (
-                    <ToDo key={todo.id} id={todo.id} text={todo.text} />
+                    <ToDo key={todo.id} id={todo.id} text={todo.text} checked={todo.checked} />
                 )
             })
             }
