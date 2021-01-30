@@ -20,7 +20,7 @@ const AddTodo = ({ addToDo }) => {
     return (
         <div className="d-flex flex-row align-items-center">
             <form className="d-flex flex-row align-items-center" action="" onSubmit={handleSubmit}>
-                <input type="text" value={textVal} onChange={(e) => setTextVal(e.target.value)} />
+                <input type="text" value={textVal} maxLength="25" onChange={(e) => setTextVal(e.target.value)} />
                 <button className="btn btn-secondary" type='submit' onClick={handleSubmit} >Add To Do</button>
 
             </form>

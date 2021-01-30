@@ -5,8 +5,8 @@ import { connect } from 'react-redux'
 const ToDo = ({ text, checked, deleteToDo, updateToDo }) => {
     return (
 
-        <div className="my-card d-flex flex-row justify-content-between">
-            <h4 style={{ display: "inline" }}>{text}</h4>
+        <div className="my-card">
+            <h4>{text}</h4>
             <div>
                 <button className={checked ? "btn btn-success" : "btn btn-dark"} onClick={updateToDo}>{checked ? "Done" : "Check"}</button>
                 <button className="btn btn-danger" onClick={deleteToDo}>Del</button>
