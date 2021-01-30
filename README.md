@@ -3,7 +3,7 @@ This is a React project that implements Redux to manage the state of a "To Do" a
 
 This project is deployed with gh-pages here: [Redux-To-Do](https://projectym.github.io/Redux-To-Do/).
 
-### What This App Does:
+## What This App Does:
 
 This app allows you to add "To Do" items to a list of pre-generated items.<br/>
 
