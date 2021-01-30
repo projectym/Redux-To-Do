@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+.to-do-list{
+  max-width: 700px;
+  width: 95%;
+}
+
 .btn{
   margin: 0 5px;
 }
@@ -24,7 +29,7 @@ code {
   border: .6px solid lightgray;
 }
 
-@media only screen and (min-width:670px){
+@media only screen and (min-width:560px){
   .my-card{
     flex-direction: row;
     justify-content: space-between;
@@ -32,7 +37,7 @@ code {
 
 }
 
-@media only screen and (max-width:670px){
+@media only screen and (max-width:560px){
   .my-card{
     flex-direction: column;
     width: 95%;
